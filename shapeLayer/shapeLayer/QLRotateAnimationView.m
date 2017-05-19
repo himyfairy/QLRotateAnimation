@@ -9,7 +9,7 @@
 #import "QLRotateAnimationView.h"
 #define k_whole_round_time (2.0)
 
-@interface QLRotateAnimationView () <CAAnimationDelegate>
+@interface QLRotateAnimationView ()
 
 @property (nonatomic, strong) UIBezierPath *path1;
 @property (nonatomic, strong) UIBezierPath *path2;
